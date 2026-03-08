@@ -18,4 +18,17 @@ def removeDuplicates(nums:list):
            j+=1
    return j
 
-print(removeDuplicates([0,1,1,2,2,2,3,3,3,3,4]))
+
+def maxArea(height: list):
+    i,j=0,len(height)-1
+    area=0
+    while i<j:
+        area=max(area,(j-i)*(min(height[i],height[j])))
+        if height[i]<height[j]:
+            i+=1
+        else:
+            j-=1
+    return area
+
+
+print(maxArea([1,8,6,2,5,4,8,3,7]))

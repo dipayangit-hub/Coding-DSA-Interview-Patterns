@@ -18,7 +18,7 @@ class Solution(object):
         #end is end point of current jump window
         maxjump,end=0,0
         ans=0
-        for i in range(len(nums)):
+        for i in range(len(nums)-1):
             maxjump=max(maxjump,nums[i]+i)
             if maxjump>=len(nums)-1:
                 return ans+1

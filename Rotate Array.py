@@ -19,4 +19,4 @@ class Solution(object):
         return nums
     
 
-print(Solution().rotate([1,2,3,4,5,6,7],8))
+print(Solution().rotate([1,2,3,4,5,6,7],3))

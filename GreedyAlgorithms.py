@@ -46,4 +46,4 @@ class Solution(object):
                  pos=i+1 #starting from next index as this will be the last remaining positive index
          return pos
 
-print(Solution().canCompleteCircuit(gas = [5,1,2,3,4], cost = [4,4,1,5,1]))
+print(Solution().canCompleteCircuit(gas = [1,2,3,4,5], cost = [3,4,5,1,2]))

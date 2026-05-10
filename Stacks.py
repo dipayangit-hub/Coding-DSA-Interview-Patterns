@@ -47,4 +47,4 @@ class Solution(object):
          return str[:len(str)-1] if len(str)>1 else str   
                    
 
-print(Solution().simplifyPath("/../"))
+print(Solution().simplifyPath("/.../a/../b/c/../d/./"))

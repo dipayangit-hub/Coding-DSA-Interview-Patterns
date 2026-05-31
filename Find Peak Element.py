@@ -18,4 +18,4 @@ class Solution:
                 l=mid+1
             elif nums[mid]<nums[mid-1]:
                 r=mid-1
-print(Solution().findPeakElement([9,7,3,7,8]))
+print(Solution().findPeakElement([6,7,10,7,7]))
